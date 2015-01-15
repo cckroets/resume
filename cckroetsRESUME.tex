@@ -1,0 +1,93 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+
+
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{hyperref}
+\begin{document} 
+
+
+ 
+\name{Curtis Kroetsch\\[3pt]} % the \\[12pt] adds a blank line after name
+ 
+\address{cckroets@uwaterloo.ca \\ 4A Computer Science \\ID: 20410933}
+\address{
+	\href{http://www.github.com/cckroets}	{\sf \bf github.com/cckroets} \\ 
+	\href{http://linkd.in/1yeGzGo}			{\sf \bf linkd.in/1yeGzGo} 
+}
+
+
+ 
+\begin{resume} 
+
+\section{SKILLS} 
+Favourite languages: Java, C++, Scheme, SQL \\
+Code Quality tools: Checkstyle, Jacoco, Lint \\
+Build tools: Gradle, Maven, Git 
+
+\section{EDUCATION} 
+Candidate for Bachelors of {\bf Computer Science} \hfill Winter 2016 \\
+University of Waterloo, ON  
+
+\section{INTERNSHIPS}
+{\bf Software Engineering - Android} \hfill Fall 2014 \\ LinkedIn, Mountain View, CA
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Brought a new Android app from infancy to company-wide launch in four months.
+ \item {\mbox Implemented a majority of the core features including single sign-on, push notifications, and many more confidential features.}
+\end{itemize}
+
+ {\bf Software Engineering - Hadoop MapReduce} \hfill Winter 2014 \\ LinkedIn, Mountain View, CA 
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Implemented a relevancy optimization for sending publications to members
+ \item {\mbox Developed a unified framework for producing and distributing publications using Java and Hadoop MapReduce}	
+\end{itemize}
+ 
+{\bf Software Engineering - Query Processing}  \hfill  Spring 2013 \\ SAP, Waterloo, ON
+\begin{itemize} \itemsep -2pt %reduce space between items
+\item Researched, designed and implemented a new data statistics model
+\item {\mbox Worked individually to start and finish the project in 4 months in an Agile environment}
+\end{itemize}
+
+{\bf Instructional Support Assistant} \hfill Fall 2012, Winter 2013 \\
+University of Waterloo, ON               
+\begin{itemize} \itemsep -2pt
+\item  Generated correctness tests for student-submitted programs
+\item  Designed and implemented an auto-marking framework.
+\item  Led a weekly computer science tutorial for first year students
+\end{itemize}
+
+
+
+
+\section{PROJECTS \newline AND COMPETITIONS}
+{\bf Swear Jar, CalHacks Submission (36 hours)} \hfill Fall 2014
+\begin{itemize} \itemsep -2pt
+\item Developed an Android app that tracks swear words sent via SMS
+\item Features Facebook API for sign-in and Paypal integration for donating money
+\item Won the award for {\bf Best use of the Paypal API} 	
+\end{itemize}
+
+\href{http://dl.acm.org/citation.cfm?id=2612663}{\bf ACM SIGMOD 2014 Publication} 
+\hfill Spring 2014
+\begin{itemize} \itemsep -2pt
+\item Title: \textit{Multi-dimensional Data Statistics for In-Memory Databases}
+\item Published in SIGMOD '14 Proceedings of the 2014 ACM SIGMOD international conference on Management of data
+\end{itemize}
+
+{\bf Other Projects}
+\begin{itemize} \itemsep -2pt
+\item Fundamentals, a submission for the Money 20/20 Hackathon (Android)
+\item CHIP-8, a video game console emulator for Android and Java Swing
+\item Tweeting university parking lot information (Python)
+\end{itemize}
+
+\end{resume} 
+\end{document} 
+
+
+
